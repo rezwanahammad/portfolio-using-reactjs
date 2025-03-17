@@ -1,0 +1,100 @@
+/* General Styles */
+#skills {
+    background-color: rgb(30, 30, 30); /* Dark background */
+    color: #fff; /* White text */
+    text-align: center;
+    padding: 50px 20px;
+}
+
+/* Title Styling */
+.skillTitle {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #00ADB5;
+}
+
+/* Description Container */
+.skillDesc {
+    font-weight: 300;
+    font-size: 1.2rem;
+    max-width: 70rem;
+    padding: 0 2rem;
+    line-height: 1.6;
+    opacity: 0.9;
+    margin: 0 auto;
+}
+
+/* Skill Bars Container */
+.skillBars {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Individual Skill Bar */
+.skillBar {
+    display: flex;
+    align-items: center;
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 100%;
+    max-width: 800px;
+}
+
+/* Hover Effect */
+.skillBar:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 6px 15px rgba(0, 173, 181, 0.5);
+}
+
+/* Image Styling */
+.skillBarImg {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-right: 20px;
+    border-radius: 10px;
+    border: 2px solid #00ADB5;
+    padding: 5px;
+    background: #fff;
+}
+
+/* Text Styling */
+.skillBarText {
+    text-align: left;
+}
+
+.skillBarText h2 {
+    font-size: 1.8rem;
+    color: #00ADB5;
+    margin-bottom: 5px;
+}
+
+.skillBarText p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #e0e0e0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .skillBar {
+        flex-direction: column;
+        text-align: center;
+        padding: 15px;
+    }
+
+    .skillBarImg {
+        margin: 0 auto 10px;
+    }
+}

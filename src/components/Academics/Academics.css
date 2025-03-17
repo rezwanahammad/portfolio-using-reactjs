@@ -1,0 +1,82 @@
+
+#Academics {
+    background-color: rgb(30,30,30); 
+    color: #fff; 
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.AcademicsTitle {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #00ADB5;
+}
+
+.AcademicsDesc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.undergrade, .HSC, .SSC {
+    display: flex;
+    align-items: center;
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 100%;
+    max-width: 800px;
+}
+
+.undergrade:hover, .HSC:hover, .SSC:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 6px 15px rgba(0, 173, 181, 0.5);
+}
+
+.kuetLogo, .amcLogo, .mzsLogo {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-right: 20px;
+    border-radius: 10px;
+    border: 2px solid #00ADB5;
+    padding: 5px;
+    background: #fff;
+}
+
+.undergradeText, .hscText, .sscText {
+    text-align: left;
+}
+
+.undergradeText h2, .hscText h2, .sscText h2 {
+    font-size: 1.8rem;
+    color: #00ADB5;
+    margin-bottom: 5px;
+}
+
+.undergradeText p, .hscText p, .sscText p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #e0e0e0;
+}
+
+@media (max-width: 768px) {
+    .undergrade, .HSC, .SSC {
+        flex-direction: column;
+        text-align: center;
+        padding: 15px;
+    }
+
+    .kuetLogo, .amcLogo, .mzsLogo {
+        margin: 0 auto 10px;
+    }
+}

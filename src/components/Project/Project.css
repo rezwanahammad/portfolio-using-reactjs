@@ -1,0 +1,114 @@
+/* General Styling */
+#Projects {
+    background-color: rgb(30, 30, 30); /* Dark background */
+    color: #fff; /* White text */
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.ProjectsTitle {
+    font-size: 2.5rem;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 3px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #00ADB5;
+}
+
+.ProjectsDesc {
+    font-size: 1.2rem;
+    margin-bottom: 50px;
+    line-height: 1.6;
+    color: #e0e0e0;
+}
+
+/* Project container */
+.projectBars {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 30px; /* Space between project sections */
+    align-items: center;
+}
+
+/* Individual project bar */
+.projectBar {
+    display: flex;
+    align-items: center;
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 20px;
+}
+
+/* Hover effect */
+.projectBar:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 6px 15px rgba(0, 173, 181, 0.5);
+}
+
+/* Image styling */
+.projectBarImg {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-right: 20px;
+    border-radius: 10px;
+    border: 2px solid #00ADB5;
+    padding: 5px;
+    background: #fff;
+}
+
+/* Text styling */
+.projectBarText {
+    text-align: left;
+    flex: 1; /* Allow text to take remaining space */
+}
+
+.projectBarText h2 {
+    font-size: 1.8rem;
+    color: #00ADB5;
+    margin-bottom: 5px;
+}
+
+.projectBarText p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #e0e0e0;
+    margin-bottom: 15px;
+}
+
+.projectBarText a {
+    display: inline-block;
+    background-color: #00ADB5;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.projectBarText a:hover {
+    background-color: #008a97;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .projectBars {
+        flex-direction: column;
+    }
+
+    .projectBar {
+        flex-direction: column; /* Stack project items vertically on small screens */
+        text-align: center;
+        padding: 15px;
+    }
+
+    .projectBarImg {
+        margin: 0 auto 10px;
+    }
+}
