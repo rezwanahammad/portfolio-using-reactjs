@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+📌 Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my personal portfolio website! I just made a portfolio website for practicing my newly learned React framework.
 
-## Available Scripts
+🌐 Live Demo
 
-In the project directory, you can run:
+Visit my portfolio - https://rezwanahammad.github.io/portfolio/
 
-### `npm start`
+📁 Repository Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This repository contains the source code for my portfolio website built using modern web technologies.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🚀 Features
 
-### `npm test`
+Responsive Design 📱💻
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Interactive UI/UX 🎨
 
-### `npm run build`
+Project Showcase 🏗️
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Contact Form 📩
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Smooth Animations ✨
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+🛠️ Tech Stack
 
-### `npm run eject`
+Frontend: HTML, CSS, JavaScript, React.js
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Backend: NO backend used
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Styling: Tailwind CSS
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Hosting: GitHub Pages
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+📂 Folder Structure
 
-## Learn More
+📦 portfolio
+├── 📁 public      # Static assets (images, icons, etc.)
+├── 📁 src         # Main source code
+│   ├── 📁 components  # Reusable UI components
+│   ├── 📁 pages       # Different sections of the portfolio
+│   ├── 📁 assets      # Images, fonts, etc.
+│   ├── App.js        # Main React file
+│   ├── index.js      # Entry point
+├── package.json      # Project dependencies
+└── README.md         # Project documentation
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+📸 Screenshots (Add relevant images here)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+ (Replace # with an actual screenshot URL)
 
-### Code Splitting
+🔧 Setup & Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Clone the Repository:
 
-### Analyzing the Bundle Size
+git clone https://github.com/rezwanahammad/portfolio.git
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Navigate to the Project Directory:
 
-### Making a Progressive Web App
+cd portfolio
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Install Dependencies:
 
-### Advanced Configuration
+npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Start the Development Server:
 
-### Deployment
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Build for Production:
