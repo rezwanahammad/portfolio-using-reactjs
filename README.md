@@ -45,9 +45,6 @@ Hosting: GitHub Pages
 ├── package.json      # Project dependencies
 └── README.md         # Project documentation
 
-📸 Screenshots (Add relevant images here)
-
- (Replace # with an actual screenshot URL)
 
 🔧 Setup & Installation
 
