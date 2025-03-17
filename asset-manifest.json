@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.44ac1851.css",
+    "main.js": "/portfolio/static/js/main.82484629.js",
+    "static/media/Pic4.jpg": "/portfolio/static/media/Pic4.7600385b55949334a8fc.jpg",
+    "static/media/Pic7.jpg": "/portfolio/static/media/Pic7.993757dfed9ccd27350a.jpg",
+    "static/media/Pic2.jpg": "/portfolio/static/media/Pic2.2fdf233e890d1a22ba87.jpg",
+    "static/media/Pic9.jpg": "/portfolio/static/media/Pic9.82af049e526d8357a5ae.jpg",
+    "static/media/Pic1.jpg": "/portfolio/static/media/Pic1.4e459ee4defb39e0600b.jpg",
+    "static/media/Pic5.jpg": "/portfolio/static/media/Pic5.f986568b742ba2d64c30.jpg",
+    "static/media/AMC_logo.png": "/portfolio/static/media/AMC_logo.645e56aa6f7358864372.png",
+    "static/media/raadPic2.webp": "/portfolio/static/media/raadPic2.1f2bc9a9428c408d8bfc.webp",
+    "static/media/Pic10.jpg": "/portfolio/static/media/Pic10.9b8034331366c5aa5675.jpg",
+    "static/media/Pic6.jpg": "/portfolio/static/media/Pic6.09031ec1e1a5f236036d.jpg",
+    "static/media/whatsappLogo.webp": "/portfolio/static/media/whatsappLogo.b867434471a3634f79ee.webp",
+    "static/media/cpp_logo.png": "/portfolio/static/media/cpp_logo.053a898d752aef72651e.png",
+    "static/media/linkedinLogo.png": "/portfolio/static/media/linkedinLogo.a3c944baff2144845c6d.png",
+    "static/media/mainLogo2.png": "/portfolio/static/media/mainLogo2.afdb366eca6e445a4842.png",
+    "static/media/PhotographyLogo.png": "/portfolio/static/media/PhotographyLogo.0b12fdec1e24d98e9339.png",
+    "static/media/instagram.png": "/portfolio/static/media/instagram.0bcd1dcb7d853c327af7.png",
+    "index.html": "/portfolio/index.html",
+    "main.44ac1851.css.map": "/portfolio/static/css/main.44ac1851.css.map",
+    "main.82484629.js.map": "/portfolio/static/js/main.82484629.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.44ac1851.css",
+    "static/js/main.82484629.js"
+  ]
+}
