@@ -1,6 +1,5 @@
-📌 Portfolio Website
 
-Welcome to my personal portfolio website! I just made a portfolio website for practicing my newly learned React framework.
+Welcome to my personal portfolio ! I just made a portfolio website for practicing my newly learned React framework.
 
 🌐 Live Demo
 
